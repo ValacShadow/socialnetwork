@@ -12,7 +12,7 @@ This project is a social network API built with Django and Django Rest Framework
 ### Steps
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/socialnetwork.git
+   git clone https://github.com/ValacShadow/socialnetwork.git
    cd socialnetwork
    python manage.py runserver
 
