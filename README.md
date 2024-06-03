@@ -14,7 +14,7 @@ This project is a social network API built with Django and Django Rest Framework
 1. Clone the repository:
    - git clone https://github.com/ValacShadow/socialnetwork.git
    - cd socialnetwork
-   - python manage.py runserver
+   
 
 2. Build and run the Docker containers:
    - docker-compose up --build
@@ -24,6 +24,9 @@ This project is a social network API built with Django and Django Rest Framework
 
 4. Create a superuser:
    - docker-compose exec web python manage.py createsuperuser
+
+5. Run server
+   - docker-compose exec web python manage.py runserver
 
 - API Endpoints
    - POST /api/signup/: User signup
