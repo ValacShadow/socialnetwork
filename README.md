@@ -12,25 +12,25 @@ This project is a social network API built with Django and Django Rest Framework
 ### Steps
 
 1. Clone the repository:
-   git clone https://github.com/ValacShadow/socialnetwork.git
-   cd socialnetwork
-   python manage.py runserver
+   - git clone https://github.com/ValacShadow/socialnetwork.git
+   - cd socialnetwork
+   - python manage.py runserver
 
 2. Build and run the Docker containers:
-   docker-compose up --build
+   - docker-compose up --build
 
 3. Apply database migrations:
-   docker-compose exec web python manage.py migrate
+   - docker-compose exec web python manage.py migrate
 
 4. Create a superuser:
-   docker-compose exec web python manage.py createsuperuser
+   - docker-compose exec web python manage.py createsuperuser
 
 - API Endpoints
-   POST /api/signup/: User signup
-   POST /api/login/: User login
-   GET /api/search/?q=keyword: Search users by email or name
-   POST /api/friend-request/: Send friend request
-   PUT /api/friend-request/accept/<id>/: Accept friend request
-   PUT /api/friend-request/reject/<id>/: Reject friend request
-   GET /api/friends/: List friends
-   GET /api/friend-requests/pending/: List pending friend requests
+   - POST /api/signup/: User signup
+   - POST /api/login/: User login
+   - GET /api/search/?q=keyword: Search users by email or name
+   - POST /api/friend-request/: Send friend request
+   - PUT /api/friend-request/accept/<id>/: Accept friend request
+   - PUT /api/friend-request/reject/<id>/: Reject friend request
+   - GET /api/friends/: List friends
+   - GET /api/friend-requests/pending/: List pending friend requests
